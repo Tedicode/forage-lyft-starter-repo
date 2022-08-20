@@ -8,3 +8,10 @@ class Car(ABC):
     @abstractmethod
     def needs_service(self):
         pass
+        # if self.engine.needs_service() || self.battery.needs_service :
+        #     return true
+        # else:
+        #     return false
+
+
+
